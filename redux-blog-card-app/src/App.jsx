@@ -1,8 +1,11 @@
+import PostsList from "./components/posts/PostsList";
+import "./index.css";
+
 function App() {
   return (
-    <>
-      <h1>blog app</h1>
-    </>
+    <div className="app">
+      <PostsList />
+    </div>
   );
 }
 
